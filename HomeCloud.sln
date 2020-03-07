@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29728.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeCloud.API", "HomeCloud.API\HomeCloud.API.csproj", "{B29AFD4D-EE98-45F7-BA61-41FA267D911E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeCloud.UI", "HomeCloud.UI\HomeCloud.UI.csproj", "{F43B785A-5DA2-488E-A4E1-FA705D5BD2BC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B29AFD4D-EE98-45F7-BA61-41FA267D911E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B29AFD4D-EE98-45F7-BA61-41FA267D911E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B29AFD4D-EE98-45F7-BA61-41FA267D911E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B29AFD4D-EE98-45F7-BA61-41FA267D911E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F43B785A-5DA2-488E-A4E1-FA705D5BD2BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F43B785A-5DA2-488E-A4E1-FA705D5BD2BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F43B785A-5DA2-488E-A4E1-FA705D5BD2BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F43B785A-5DA2-488E-A4E1-FA705D5BD2BC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {65F44974-FA2E-40DF-9637-BE3BE6712EF6}
+	EndGlobalSection
+EndGlobal
