@@ -9,19 +9,20 @@
     <mat-sidenav #snav [mode]="mobileQuery.matches ? 'over' : 'side'"
                  [fixedInViewport]="mobileQuery.matches" fixedTopGap="56">
       <mat-nav-list class="hc-mat-list">
-        <a  mat-list-item routerLink=".">All</a>
+        <a  mat-list-item routerLink="allcontent">All</a>
         <mat-divider></mat-divider>
-        <a mat-list-item routerLink=".">Videos</a>
+        <a mat-list-item routerLink="/video">Videos</a>
         <mat-divider></mat-divider>
-        <a mat-list-item routerLink=".">Fotos</a>
+        <a mat-list-item routerLink="/photo">Photos</a>
         <mat-divider></mat-divider>
-        <a mat-list-item routerLink=".">Books</a>
+        <a mat-list-item routerLink="/book">Books</a>
         <mat-divider></mat-divider>
-        <a mat-list-item routerLink=".">Documents</a>
+        <a mat-list-item routerLink="/document">Documents</a>
       </mat-nav-list>
     </mat-sidenav>
 
     <mat-sidenav-content>
+                          <router-outlet></router-outlet>
     </mat-sidenav-content>
   </mat-sidenav-container>
 </div>
